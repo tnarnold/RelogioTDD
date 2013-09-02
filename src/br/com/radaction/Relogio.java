@@ -1,3 +1,4 @@
+package br.com.radaction;
 public class Relogio{
 
 	public String mostraHora(int hora){
