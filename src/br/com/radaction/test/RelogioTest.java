@@ -9,10 +9,10 @@ import br.com.radaction.Relogio;
 public class RelogioTest {
 
 	@Test
-	public void test() {
+	public void testMostaRelogio() {
 		Relogio r=new Relogio();
-		String hora=r.mostraHora(1234);
-		assertEquals(hora, "00:00:00");
+		String hora=r.mostraHora(82800);
+		assertEquals(hora, "23:00:00");
 	}
 
 }
